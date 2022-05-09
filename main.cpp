@@ -50,39 +50,39 @@ int main()
 		switch (Type)
 		{
 		case 0:
-			cout << "¢¾";
+			cout << "¢¾" << " ";
 			break;
 		case 1:
-			cout << "¢¼";
+			cout << "¢¼" << " ";
 			break;
 		case 2:
-			cout << "¢À";
+			cout << "¢À" << " ";
 			break;
 		case 3:
-			cout << "¡ß";
+			cout << "¡ß" << " ";
 			break;
 		}
 		switch (Number)
 		{
 		case 10:
-			cout << "J" << " ";
+			cout << "J";
 			Number = 10;
 			break;
 		case 11:
-			cout << "Q" << " ";
+			cout << "Q";
 			Number = 10;
 			break;
 		case 12:
-			cout << "K" << " ";
+			cout << "K";
 			Number = 10;
 			break;
 		case 0:
-			cout << "A" << " ";
+			cout << "A";
 			Number = 1;
 			break;
 		default:
 			Number = Number + 1;
-			cout << Number << " ";
+			cout << Number;
 			break;
 		}
 		cout << endl;
@@ -117,40 +117,40 @@ int main()
 		switch (Type)
 		{
 		case 0:
-			cout << "¢¾";
+			cout << "¢¾" << " ";
 			break;
 		case 1:
-			cout << "¢¼";
+			cout << "¢¼" << " ";
 			break;
 		case 2:
-			cout << "¢À";
+			cout << "¢À" << " ";
 			break;
 		case 3:
-			cout << "¡ß";
+			cout << "¡ß" << " ";
 			break;
 		}
 
 		switch (Number)
 		{
 		case 10:
-			cout << "J" << " ";
+			cout << "J";
 			Number = 10;
 			break;
 		case 11:
-			cout << "Q" << " ";
+			cout << "Q";
 			Number = 10;
 			break;
 		case 12:
-			cout << "K" << " ";
+			cout << "K";
 			Number = 10;
 			break;
 		case 0:
-			cout << "A" << " ";
+			cout << "A";
 			Number = 1;
 			break;
 		default:
 			Number = Number + 1;
-			cout << Number << " ";
+			cout << Number;
 			break;
 		}
 
